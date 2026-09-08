@@ -1,0 +1,251 @@
+{
+  "created_at": "2026-09-08T00:03:07.925671",
+  "start": "2024-01-01",
+  "last_market_date": "2026-09-04",
+  "last_weekly_date": "2026-09-04",
+  "sectors": {
+    "MARKET": {
+      "benchmark": "SPY",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "RSP"
+      ],
+      "description": "US broad market / growth / small-cap / equal-weight breadth"
+    },
+    "SEMI": {
+      "benchmark": "SOXX",
+      "tickers": [
+        "SOXX",
+        "SMH",
+        "NVDA",
+        "MU",
+        "AMAT",
+        "LRCX"
+      ],
+      "description": "Semiconductors / AI compute / memory / equipment"
+    },
+    "NUCLEAR": {
+      "benchmark": "URA",
+      "tickers": [
+        "URA",
+        "URNM",
+        "CCJ",
+        "CEG",
+        "BWXT",
+        "LEU"
+      ],
+      "description": "Uranium / nuclear operators / fuel & technology"
+    },
+    "POWER_INDUSTRIALS": {
+      "benchmark": "XLI",
+      "tickers": [
+        "XLI",
+        "PAVE",
+        "ETN",
+        "GEV",
+        "PWR",
+        "HUBB"
+      ],
+      "description": "Industrials / grid / electrical equipment / AI power infrastructure"
+    },
+    "AI_SOFTWARE": {
+      "benchmark": "IGV",
+      "tickers": [
+        "IGV",
+        "WCLD",
+        "CLOU",
+        "MSFT",
+        "ORCL",
+        "PLTR"
+      ],
+      "description": "Software / cloud / AI applications"
+    },
+    "FINANCIALS": {
+      "benchmark": "XLF",
+      "tickers": [
+        "XLF",
+        "KRE",
+        "JPM",
+        "BAC",
+        "GS",
+        "MS"
+      ],
+      "description": "Large financials / regional banks / investment banks"
+    },
+    "DEFENSIVE": {
+      "benchmark": "XLU",
+      "tickers": [
+        "XLU",
+        "XLV",
+        "XLP",
+        "KO",
+        "PG",
+        "JNJ"
+      ],
+      "description": "Utilities / healthcare / staples"
+    },
+    "CONSUMER_STAPLES": {
+      "benchmark": "XLP",
+      "tickers": [
+        "XLP",
+        "KO",
+        "PG",
+        "PEP",
+        "COST",
+        "WMT"
+      ],
+      "description": "Consumer staples / food / beverages / household / retail staples"
+    },
+    "HEALTHCARE": {
+      "benchmark": "XLV",
+      "tickers": [
+        "XLV",
+        "UNH",
+        "LLY",
+        "JNJ",
+        "ABBV",
+        "MRK"
+      ],
+      "description": "Healthcare / pharmaceuticals / managed care"
+    },
+    "ENERGY": {
+      "benchmark": "XLE",
+      "tickers": [
+        "XLE",
+        "XOP",
+        "XOM",
+        "CVX",
+        "COP",
+        "SLB"
+      ],
+      "description": "Energy / oil & gas / services"
+    },
+    "MATERIALS": {
+      "benchmark": "XLB",
+      "tickers": [
+        "XLB",
+        "LIN",
+        "SHW",
+        "FCX",
+        "NEM",
+        "APD"
+      ],
+      "description": "Materials / chemicals / metals / mining"
+    },
+    "CONSUMER_DISCRETIONARY": {
+      "benchmark": "XLY",
+      "tickers": [
+        "XLY",
+        "AMZN",
+        "TSLA",
+        "HD",
+        "MCD",
+        "NKE"
+      ],
+      "description": "Consumer discretionary / retail / autos / leisure"
+    },
+    "COMMUNICATION_SERVICES": {
+      "benchmark": "XLC",
+      "tickers": [
+        "XLC",
+        "META",
+        "GOOGL",
+        "NFLX",
+        "DIS",
+        "TMUS"
+      ],
+      "description": "Communication services / platforms / media"
+    }
+  },
+  "all_tickers": [
+    "ABBV",
+    "AMAT",
+    "AMZN",
+    "APD",
+    "BAC",
+    "BWXT",
+    "CCJ",
+    "CEG",
+    "CLOU",
+    "COP",
+    "COST",
+    "CVX",
+    "DIS",
+    "ETN",
+    "FCX",
+    "GEV",
+    "GOOGL",
+    "GS",
+    "HD",
+    "HUBB",
+    "IGV",
+    "IWM",
+    "JNJ",
+    "JPM",
+    "KO",
+    "KRE",
+    "LEU",
+    "LIN",
+    "LLY",
+    "LRCX",
+    "MCD",
+    "META",
+    "MRK",
+    "MS",
+    "MSFT",
+    "MU",
+    "NEM",
+    "NFLX",
+    "NKE",
+    "NVDA",
+    "ORCL",
+    "PAVE",
+    "PEP",
+    "PG",
+    "PLTR",
+    "PWR",
+    "QQQ",
+    "RSP",
+    "SHW",
+    "SLB",
+    "SMH",
+    "SOXX",
+    "SPY",
+    "TMUS",
+    "TSLA",
+    "UNH",
+    "URA",
+    "URNM",
+    "WCLD",
+    "WMT",
+    "XLB",
+    "XLC",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLP",
+    "XLU",
+    "XLV",
+    "XLY",
+    "XOM",
+    "XOP",
+    "^VIX"
+  ],
+  "fred_series": {
+    "UNRATE": "UNRATE",
+    "ICSA": "ICSA",
+    "CPI": "CPIAUCSL",
+    "CORE_PCE": "PCEPILFE",
+    "UMCSENT": "UMCSENT",
+    "DGS2": "DGS2",
+    "DGS10": "DGS10",
+    "DGS30": "DGS30",
+    "DGS3MO": "DGS3MO",
+    "DFII10": "DFII10",
+    "HY_OAS": "BAMLH0A0HYM2",
+    "NFCI": "NFCI"
+  },
+  "status": "complete"
+}

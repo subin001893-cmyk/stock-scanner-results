@@ -1,0 +1,16 @@
+{
+  "status": "SUCCESS",
+  "run_type": "MANUAL",
+  "generated_at_utc": "2026-09-08T00:03:09.633922+00:00",
+  "semiconductor": {
+    "weekly_results": "latest/weekly_results.csv",
+    "daily_shock": "latest/daily_shock_latest.json",
+    "korea_flow": "latest/korea_flow_latest.json"
+  },
+  "sector_rotation": {
+    "scores": "latest/sector_rotation_scores.csv",
+    "snapshot": "latest/sector_latest_snapshot.csv",
+    "manifest": "latest/sector_rotation_manifest.json",
+    "report": "latest/sector_rotation_report.csv"
+  }
+}
