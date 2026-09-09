@@ -1,7 +1,7 @@
 {
   "status": "SUCCESS",
-  "run_type": "CLOSE",
-  "generated_at_utc": "2026-09-08T21:36:17.636706+00:00",
+  "run_type": "PREMARKET",
+  "generated_at_utc": "2026-09-09T13:10:19.168797+00:00",
   "semiconductor": {
     "weekly_results": "latest/weekly_results.csv",
     "daily_shock": "latest/daily_shock_latest.json",
