@@ -9,7 +9,7 @@
     "volume_ratio": 1.5,
     "volume_window": 20
   },
-  "generated_at": "2026-09-09T21:36:31.472287+00:00",
+  "generated_at": "2026-09-10T13:08:33.022244+00:00",
   "scope": "daily close, not intraday; breadth is four-stock sample",
   "status": "NO_SHOCK",
   "asof": "2026-09-09",
@@ -32,7 +32,7 @@
     "vix_threshold": 0.1270114376,
     "vix_shock": false,
     "declining_fraction": 0.75,
-    "median_volume_ratio": 0.6668199907,
+    "median_volume_ratio": 0.68885473,
     "breadth_shock": false,
     "shock_count": 0,
     "status": "NO_SHOCK",
