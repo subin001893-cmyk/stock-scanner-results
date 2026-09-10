@@ -1,12 +1,12 @@
 {
-  "workflow": "Stock Scanner",
-  "run_type": "PREMARKET",
-  "workflow_run_id": "34480747375",
-  "workflow_run_number": "9",
+  "workflow": "Stock Scanner Hotfix CLOSE",
+  "run_type": "CLOSE",
+  "workflow_run_id": "34535020853",
+  "workflow_run_number": "1",
   "workflow_attempt": "1",
-  "event_name": "schedule",
-  "schedule": "0 13 * * 1-5",
-  "commit_sha": "9a95f16ec53ea9c1c25f92721de19c3380155046",
+  "event_name": "push",
+  "schedule": "ADHOC_RECOVERY_AFTER_UMCSENT_FIX",
+  "commit_sha": "4343681c98c6ad4992c28068861cc790a8b54b37",
   "repository": "subin001893-cmyk/stock-scanner",
-  "generated_at_utc": "2026-09-10T13:09:55.592756+00:00"
+  "generated_at_utc": "2026-09-10T22:00:05.467850+00:00"
 }
