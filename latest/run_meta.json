@@ -1,12 +1,12 @@
 {
   "workflow": "Stock Scanner",
-  "run_type": "PREMARKET",
-  "workflow_run_id": "35100116610",
-  "workflow_run_number": "17",
+  "run_type": "CLOSE",
+  "workflow_run_id": "35153425896",
+  "workflow_run_number": "18",
   "workflow_attempt": "1",
   "event_name": "schedule",
-  "schedule": "0 13 * * 1-5",
+  "schedule": "30 21 * * 1-5",
   "commit_sha": "ef1ba6493c9d6545d156b12a4a380ac9d308cb51",
   "repository": "subin001893-cmyk/stock-scanner",
-  "generated_at_utc": "2026-09-16T13:11:24.584766+00:00"
+  "generated_at_utc": "2026-09-16T21:39:36.537677+00:00"
 }
