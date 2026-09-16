@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-15T21:36:32.783599+00:00",
+  "collected_at": "2026-09-16T13:10:56.726642+00:00",
   "score_impact": "none",
   "definition": "buy shares minus sell shares as reported by Naver; not KRW",
   "stocks": [
@@ -7,7 +7,7 @@
       "code": "005930",
       "name": "삼성전자",
       "status": "UNAVAILABLE",
-      "expected_asof": "2026-09-15",
+      "expected_asof": "2026-09-16",
       "unit": "shares",
       "reason": "DataQualityError"
     },
@@ -15,7 +15,7 @@
       "code": "000660",
       "name": "SK하이닉스",
       "status": "UNAVAILABLE",
-      "expected_asof": "2026-09-15",
+      "expected_asof": "2026-09-16",
       "unit": "shares",
       "reason": "DataQualityError"
     }
