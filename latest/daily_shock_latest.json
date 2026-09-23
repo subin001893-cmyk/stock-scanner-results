@@ -9,7 +9,7 @@
     "volume_ratio": 1.5,
     "volume_window": 20
   },
-  "generated_at": "2026-09-23T13:29:56.007091+00:00",
+  "generated_at": "2026-09-23T21:36:17.571088+00:00",
   "scope": "daily close, not intraday; breadth is four-stock sample",
   "status": "UNAVAILABLE",
   "reason": "DataQualityError"
