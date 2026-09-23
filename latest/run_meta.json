@@ -1,12 +1,12 @@
 {
-  "workflow": "Stock Scanner",
-  "run_type": "CLOSE",
-  "workflow_run_id": "35787586484",
-  "workflow_run_number": "26",
+  "workflow": "Stock Scanner PREMARKET Recovery",
+  "run_type": "PREMARKET",
+  "workflow_run_id": "35867421797",
+  "workflow_run_number": "2",
   "workflow_attempt": "1",
-  "event_name": "schedule",
-  "schedule": "30 21 * * 1-5",
-  "commit_sha": "9ad8908ec8527a4eacc19b25c36c930f811095b5",
+  "event_name": "push",
+  "schedule": "ADHOC_RECOVERY_AFTER_SOXL_TAIL_GAP_FIX",
+  "commit_sha": "2618c64c5529850150a57a3594306e52e657b629",
   "repository": "subin001893-cmyk/stock-scanner",
-  "generated_at_utc": "2026-09-22T21:38:04.568709+00:00"
+  "generated_at_utc": "2026-09-23T13:32:19.114738+00:00"
 }
