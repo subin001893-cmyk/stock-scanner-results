@@ -9,7 +9,7 @@
     "volume_ratio": 1.5,
     "volume_window": 20
   },
-  "generated_at": "2026-10-08T21:41:42.577664+00:00",
+  "generated_at": "2026-10-09T18:38:09.717714+00:00",
   "scope": "daily close, not intraday; breadth is four-stock sample",
   "status": "NO_SHOCK",
   "asof": "2026-10-08",
@@ -27,22 +27,22 @@
     "SOXL_return_3d": -0.1324039656,
     "SOXL_return_3d_threshold": -0.1883931054,
     "price_shock": false,
-    "vix_level": 15.4099998474,
-    "vix_change_1d": 0.021883279,
+    "vix_level": 15.41,
+    "vix_change_1d": 0.0218832891,
     "vix_threshold": 0.1270114312,
     "vix_shock": false,
     "declining_fraction": 1.0,
-    "median_volume_ratio": 1.0823289206,
+    "median_volume_ratio": 1.0906327418,
     "breadth_shock": false,
     "shock_count": 0,
     "status": "NO_SHOCK",
     "shock_streak_sessions": 0
   },
   "credit": {
-    "status": "LAGGED",
-    "observation_date": "2026-10-07",
-    "previous_observation_date": "2026-10-06",
-    "hy_oas_percent": 3.09,
+    "status": "CURRENT",
+    "observation_date": "2026-10-08",
+    "previous_observation_date": "2026-10-07",
+    "hy_oas_percent": 3.15,
     "change_bp": 6.000000000000005,
     "included_in_shock_count": false
   }
