@@ -9,7 +9,7 @@
     "volume_ratio": 1.5,
     "volume_window": 20
   },
-  "generated_at": "2026-10-13T02:39:10.253987+00:00",
+  "generated_at": "2026-10-13T02:55:55.527585+00:00",
   "scope": "daily close, not intraday; breadth is four-stock sample",
   "status": "SINGLE_SHOCK",
   "asof": "2026-10-12",

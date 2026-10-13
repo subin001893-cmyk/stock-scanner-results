@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "SUCCESS",
+  "publishable": true,
+  "official_signal_eligible": true,
+  "issues": [],
+  "expected_dates": {
+    "us_daily": "2026-10-12",
+    "us_weekly": "2026-10-09",
+    "us_weekly_session": "2026-10-09",
+    "korea_flow": "2026-10-12"
+  },
+  "observed_dates": {
+    "weekly_scores": "2026-10-09",
+    "sector_daily": "2026-10-12",
+    "sector_weekly": "2026-10-09",
+    "daily_shock": "2026-10-12",
+    "korea_flow:005930": "2026-10-12",
+    "korea_flow:000660": "2026-10-12"
+  },
+  "timing": {
+    "checked_at_utc": "2026-10-13T02:55:50.990012+00:00",
+    "run_type": "MANUAL",
+    "schedule_delay_seconds": null,
+    "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
+    "exchange_open_utc": "2026-10-12T13:30:00+00:00",
+    "exchange_close_utc": "2026-10-12T20:00:00+00:00",
+    "window_status": "MANUAL",
+    "completed_at_utc": "2026-10-13T02:56:31.555874+00:00"
+  },
+  "price_basis": "yahoo_quote_close_no_dividend_adjustment",
+  "independent_SOXL_price_provider": true,
+  "independent_price_mode": "verified_tail_only_requires_quote_close_reference",
+  "independent_price_usage": [
+    {
+      "provider": "Nasdaq public historical",
+      "ticker": "HUBB",
+      "mode": "verified_tail_only",
+      "received_at_utc": "2026-10-13T02:56:05.914336+00:00",
+      "reference_last": "2026-10-09",
+      "verified_overlap": 60,
+      "overlap_first": "2026-07-17",
+      "overlap_last": "2026-10-09",
+      "max_overlap_price_gap": 2.4414062522737368e-05,
+      "volume_median_ratio": 0.9999984099505483,
+      "supplemented_price_dates": [
+        "2026-10-12"
+      ],
+      "supplemented_volume_dates": [],
+      "response_sha256": "783ae1511ec8724d08a9dc8b5631d0ea39b7a82bfe7194b7fff786683c2eded4",
+      "used_at_utc": "2026-10-13T02:56:05.923877+00:00"
+    }
+  ]
+}
