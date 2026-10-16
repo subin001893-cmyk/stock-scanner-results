@@ -1,36 +1,42 @@
 {
-  "status": "SUCCESS",
-  "run_type": "CLOSE",
-  "generated_at_utc": "2026-10-15T23:45:09.037928+00:00",
+  "status": "PARTIAL",
+  "run_type": "PREMARKET",
+  "generated_at_utc": "2026-10-16T17:10:04.774116+00:00",
   "quality": {
     "schema_version": 1,
-    "status": "SUCCESS",
+    "status": "PARTIAL",
     "publishable": true,
-    "official_signal_eligible": true,
-    "issues": [],
+    "official_signal_eligible": false,
+    "issues": [
+      {
+        "component": "timing",
+        "code": "PREMARKET_WINDOW_MISSED",
+        "severity": "warning"
+      }
+    ],
     "expected_dates": {
       "us_daily": "2026-10-15",
       "us_weekly": "2026-10-09",
       "us_weekly_session": "2026-10-09",
-      "korea_flow": "2026-10-15"
+      "korea_flow": "2026-10-16"
     },
     "observed_dates": {
       "weekly_scores": "2026-10-09",
       "sector_daily": "2026-10-15",
       "sector_weekly": "2026-10-09",
       "daily_shock": "2026-10-15",
-      "korea_flow:005930": "2026-10-15",
-      "korea_flow:000660": "2026-10-15"
+      "korea_flow:005930": "2026-10-16",
+      "korea_flow:000660": "2026-10-16"
     },
     "timing": {
-      "checked_at_utc": "2026-10-15T23:44:22.656455+00:00",
-      "run_type": "CLOSE",
+      "checked_at_utc": "2026-10-16T17:09:31.578457+00:00",
+      "run_type": "PREMARKET",
       "schedule_delay_seconds": null,
       "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
-      "exchange_open_utc": "2026-10-15T13:30:00+00:00",
-      "exchange_close_utc": "2026-10-15T20:00:00+00:00",
-      "window_status": "WITHIN_WINDOW",
-      "completed_at_utc": "2026-10-15T23:45:06.115720+00:00"
+      "exchange_open_utc": "2026-10-16T13:30:00+00:00",
+      "exchange_close_utc": "2026-10-16T20:00:00+00:00",
+      "window_status": "PREMARKET_WINDOW_MISSED",
+      "completed_at_utc": "2026-10-16T17:10:02.802029+00:00"
     },
     "price_basis": "yahoo_quote_close_no_dividend_adjustment",
     "independent_SOXL_price_provider": true,
