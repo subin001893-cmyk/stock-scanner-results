@@ -12,42 +12,52 @@
     "official_signal_eligible": false,
     "issues": [
       {
-        "component": "timing",
-        "code": "PREMARKET_WINDOW_MISSED",
+        "component": "sector_daily",
+        "code": "COMPLETED_WEEK_ONLY",
+        "severity": "warning"
+      },
+      {
+        "component": "daily_shock",
+        "code": "UNAVAILABLE_OR_WARMUP",
+        "severity": "warning"
+      },
+      {
+        "component": "credit_context",
+        "code": "UNAVAILABLE",
         "severity": "warning"
       }
     ],
     "expected_dates": {
-      "us_daily": "2026-10-21",
+      "us_daily": "2026-10-22",
       "us_weekly": "2026-10-16",
       "us_weekly_session": "2026-10-16",
       "korea_flow": "2026-10-22"
     },
     "observed_dates": {
       "weekly_scores": "2026-10-16",
-      "sector_daily": "2026-10-21",
+      "sector_daily": "2026-10-16",
       "sector_weekly": "2026-10-16",
-      "daily_shock": "2026-10-21",
+      "daily_shock": null,
       "korea_flow:005930": "2026-10-22",
       "korea_flow:000660": "2026-10-22"
     },
     "timing": {
-      "checked_at_utc": "2026-10-22T17:50:19.229455+00:00",
-      "run_type": "PREMARKET",
+      "checked_at_utc": "2026-10-23T00:03:20.117120+00:00",
+      "run_type": "CLOSE",
       "schedule_delay_seconds": null,
       "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
       "exchange_open_utc": "2026-10-22T13:30:00+00:00",
       "exchange_close_utc": "2026-10-22T20:00:00+00:00",
-      "window_status": "PREMARKET_WINDOW_MISSED",
-      "completed_at_utc": "2026-10-22T17:50:54.106925+00:00"
+      "window_status": "WITHIN_WINDOW",
+      "completed_at_utc": "2026-10-23T00:06:17.858833+00:00"
     },
     "price_basis": "yahoo_quote_close_no_dividend_adjustment",
     "independent_SOXL_price_provider": true,
     "independent_price_mode": "verified_tail_only_requires_quote_close_reference",
     "independent_price_usage": []
   },
-  "run_type": "PREMARKET",
-  "generated_at_utc": "2026-10-22T17:50:56.920533+00:00",
+  "run_type": "CLOSE",
+  "generated_at_utc": "2026-10-23T00:06:19.264639+00:00",
   "semiconductor": {
     "weekly_results": "latest/weekly_results.csv",
     "daily_shock": "latest/daily_shock_latest.json",
