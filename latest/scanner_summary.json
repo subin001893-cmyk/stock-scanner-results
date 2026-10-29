@@ -12,42 +12,485 @@
     "official_signal_eligible": false,
     "issues": [
       {
-        "component": "timing",
-        "code": "PREMARKET_WINDOW_MISSED",
+        "component": "sector_daily",
+        "code": "COMPLETED_WEEK_ONLY",
+        "severity": "warning"
+      },
+      {
+        "component": "daily_shock",
+        "code": "UNAVAILABLE_OR_WARMUP",
+        "severity": "warning"
+      },
+      {
+        "component": "credit_context",
+        "code": "UNAVAILABLE",
         "severity": "warning"
       }
     ],
     "expected_dates": {
-      "us_daily": "2026-10-27",
+      "us_daily": "2026-10-28",
       "us_weekly": "2026-10-23",
       "us_weekly_session": "2026-10-23",
       "korea_flow": "2026-10-28"
     },
     "observed_dates": {
       "weekly_scores": "2026-10-23",
-      "sector_daily": "2026-10-27",
+      "sector_daily": "2026-10-23",
       "sector_weekly": "2026-10-23",
-      "daily_shock": "2026-10-27",
+      "daily_shock": null,
       "korea_flow:005930": "2026-10-28",
       "korea_flow:000660": "2026-10-28"
     },
     "timing": {
-      "checked_at_utc": "2026-10-28T18:38:17.084017+00:00",
-      "run_type": "PREMARKET",
+      "checked_at_utc": "2026-10-29T01:06:46.265045+00:00",
+      "run_type": "CLOSE",
       "schedule_delay_seconds": null,
       "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
       "exchange_open_utc": "2026-10-28T13:30:00+00:00",
       "exchange_close_utc": "2026-10-28T20:00:00+00:00",
-      "window_status": "PREMARKET_WINDOW_MISSED",
-      "completed_at_utc": "2026-10-28T18:38:49.141195+00:00"
+      "window_status": "WITHIN_WINDOW",
+      "completed_at_utc": "2026-10-29T01:10:23.644346+00:00"
     },
     "price_basis": "yahoo_quote_close_no_dividend_adjustment",
     "independent_SOXL_price_provider": true,
     "independent_price_mode": "verified_tail_only_requires_quote_close_reference",
-    "independent_price_usage": []
+    "independent_price_usage": [
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "SOXX",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:06:55.287095+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 2.929687502728484e-05,
+        "volume_median_ratio": 1.000001088835676,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "28e9510045ed29dd38d93e48dc945a12d2bc2977b1f1ff11cdf3ba134c440ba0",
+        "used_at_utc": "2026-10-29T01:06:55.294594+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "SPY",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:06:57.088426+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 2.929687502728484e-05,
+        "volume_median_ratio": 0.9999996236839969,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "4682a2d404ac46f7a7557ce71aaacf5e0fe53788c0a1d76b353ae2b12a08857b",
+        "used_at_utc": "2026-10-29T01:06:57.096886+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "SOXL",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:07:00.828263+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 7.32421875682121e-06,
+        "volume_median_ratio": 1.0,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "1840ae9375ec1db205954c088e5d1f052c53b35b6929382542eea9b2c52b36f8",
+        "used_at_utc": "2026-10-29T01:07:00.835563+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "NVDA",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:07:04.742151+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 7.32421875682121e-06,
+        "volume_median_ratio": 1.0,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "fad321effbcf1f7d3d8b110b3a85dcd1f7a8b9eae081cc7e2a35237e731c918e",
+        "used_at_utc": "2026-10-29T01:07:04.749708+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "ABBV",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:19.614341+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.0001783654779697,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "784d8156342de88265deb94c9abb0e69e1db1d9e5155370b6f47eaaf8276a42c",
+        "used_at_utc": "2026-10-29T01:08:19.623525+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "AMAT",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:21.597688+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 2.929687502728484e-05,
+        "volume_median_ratio": 1.0002785270564212,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "15ccb4c0e35a67bec781a48024d9d485945a81f45ee31481d055cb1db9bb4431",
+        "used_at_utc": "2026-10-29T01:08:21.606504+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "AMZN",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:25.409305+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.000000281178082,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "52469f09c5751f5c60f9fe70a31fa00f004157c158425f490564ee0e7ac182e6",
+        "used_at_utc": "2026-10-29T01:08:25.417952+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "APD",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:28.461888+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.0000468207241107,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "28378ba40b14bcb8ca8aadfd2ac8d0676c2cd46b7e49f3c3bce7ee96d705bdd6",
+        "used_at_utc": "2026-10-29T01:08:28.470884+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "BAC",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:31.467850+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 3.662109378410605e-06,
+        "volume_median_ratio": 1.000000116836898,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "433d24253a1b008ca337efc79ac9836eb2935506d7c68e31dad05b78ad38b20e",
+        "used_at_utc": "2026-10-29T01:08:31.476790+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "BWXT",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:35.471942+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 7.32421875682121e-06,
+        "volume_median_ratio": 1.0004479721335244,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "132fd1ca5d9f7da4a03fbc604120f79290dc2346be5f857d554c6195030ebe3c",
+        "used_at_utc": "2026-10-29T01:08:35.480346+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "CCJ",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:37.457085+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 3.662109378410605e-06,
+        "volume_median_ratio": 1.0004923915429758,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "a1b64f8d668926ec3075b5f46a09118a171f8d64646ce1c1a6db1fe5baf0650b",
+        "used_at_utc": "2026-10-29T01:08:37.467113+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "CEG",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:39.325040+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.000827335966281,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "66f6fb500927c41a1522164e1fdce3f85b4e5d789d5d002749578adb4b335f8f",
+        "used_at_utc": "2026-10-29T01:08:39.333753+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "CLOU",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:42.184565+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 9.155273446026513e-07,
+        "volume_median_ratio": 1.0001890982714192,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "2fd93ab1bc15e5f3d8d407759889eb95fe1714cfad5cd185d0d9f2dd42b8e805",
+        "used_at_utc": "2026-10-29T01:08:42.193436+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "COP",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:46.158151+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 6.713867179541921e-06,
+        "volume_median_ratio": 1.0001020204594975,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "b5d51b4bbff92d54e19b23f9bee0d1655e4f4824547d885da21e1c8a826e89ac",
+        "used_at_utc": "2026-10-29T01:08:46.166778+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "ABBV",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:19.614341+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.0001783654779697,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "784d8156342de88265deb94c9abb0e69e1db1d9e5155370b6f47eaaf8276a42c",
+        "used_at_utc": "2026-10-29T01:09:56.385810+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "AMAT",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:21.597688+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 2.929687502728484e-05,
+        "volume_median_ratio": 1.0002785270564212,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "15ccb4c0e35a67bec781a48024d9d485945a81f45ee31481d055cb1db9bb4431",
+        "used_at_utc": "2026-10-29T01:09:56.389396+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "AMZN",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:25.409305+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.000000281178082,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "52469f09c5751f5c60f9fe70a31fa00f004157c158425f490564ee0e7ac182e6",
+        "used_at_utc": "2026-10-29T01:09:56.392845+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "APD",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:28.461888+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.0000468207241107,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "28378ba40b14bcb8ca8aadfd2ac8d0676c2cd46b7e49f3c3bce7ee96d705bdd6",
+        "used_at_utc": "2026-10-29T01:09:56.396222+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "BAC",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:31.467850+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 3.662109378410605e-06,
+        "volume_median_ratio": 1.000000116836898,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "433d24253a1b008ca337efc79ac9836eb2935506d7c68e31dad05b78ad38b20e",
+        "used_at_utc": "2026-10-29T01:09:56.399595+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "BWXT",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:35.471942+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 7.32421875682121e-06,
+        "volume_median_ratio": 1.0004479721335244,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "132fd1ca5d9f7da4a03fbc604120f79290dc2346be5f857d554c6195030ebe3c",
+        "used_at_utc": "2026-10-29T01:09:56.402984+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "CCJ",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:37.457085+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 3.662109378410605e-06,
+        "volume_median_ratio": 1.0004923915429758,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "a1b64f8d668926ec3075b5f46a09118a171f8d64646ce1c1a6db1fe5baf0650b",
+        "used_at_utc": "2026-10-29T01:09:56.406364+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "CEG",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:39.325040+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.000827335966281,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "66f6fb500927c41a1522164e1fdce3f85b4e5d789d5d002749578adb4b335f8f",
+        "used_at_utc": "2026-10-29T01:09:56.409713+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "CLOU",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:42.184565+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 9.155273446026513e-07,
+        "volume_median_ratio": 1.0001890982714192,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "2fd93ab1bc15e5f3d8d407759889eb95fe1714cfad5cd185d0d9f2dd42b8e805",
+        "used_at_utc": "2026-10-29T01:09:56.413100+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "COP",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-10-29T01:08:46.158151+00:00",
+        "reference_last": "2026-10-27",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-04",
+        "overlap_last": "2026-10-27",
+        "max_overlap_price_gap": 6.713867179541921e-06,
+        "volume_median_ratio": 1.0001020204594975,
+        "supplemented_price_dates": [
+          "2026-10-28"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "b5d51b4bbff92d54e19b23f9bee0d1655e4f4824547d885da21e1c8a826e89ac",
+        "used_at_utc": "2026-10-29T01:09:56.416490+00:00"
+      }
+    ]
   },
-  "run_type": "PREMARKET",
-  "generated_at_utc": "2026-10-28T18:38:51.656640+00:00",
+  "run_type": "CLOSE",
+  "generated_at_utc": "2026-10-29T01:10:25.734327+00:00",
   "semiconductor": {
     "weekly_results": "latest/weekly_results.csv",
     "daily_shock": "latest/daily_shock_latest.json",
