@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-30T01:13:34.103293+00:00",
+  "collected_at": "2026-10-30T18:23:20.539693+00:00",
   "score_impact": "none",
   "definition": "buy shares minus sell shares as reported by Naver; not KRW",
   "stocks": [
@@ -7,31 +7,31 @@
       "code": "005930",
       "name": "삼성전자",
       "status": "OK",
-      "asof": "2026-10-29",
+      "asof": "2026-10-30",
       "source": "Naver Finance",
       "unit": "shares",
       "url": "https://finance.naver.com/item/frgn.naver?code=005930",
-      "foreign_net_1d_shares": -518762,
-      "foreign_net_5d_shares": 202706,
-      "foreign_net_20d_shares": -18399480,
-      "institution_net_1d_shares": 245680,
-      "institution_net_5d_shares": 3533676,
-      "institution_net_20d_shares": -4655567
+      "foreign_net_1d_shares": -1072820,
+      "foreign_net_5d_shares": -1117,
+      "foreign_net_20d_shares": -16281016,
+      "institution_net_1d_shares": 1742739,
+      "institution_net_5d_shares": 4648745,
+      "institution_net_20d_shares": -1503646
     },
     {
       "code": "000660",
       "name": "SK하이닉스",
       "status": "OK",
-      "asof": "2026-10-29",
+      "asof": "2026-10-30",
       "source": "Naver Finance",
       "unit": "shares",
       "url": "https://finance.naver.com/item/frgn.naver?code=000660",
-      "foreign_net_1d_shares": 295478,
-      "foreign_net_5d_shares": -277603,
-      "foreign_net_20d_shares": -6914097,
-      "institution_net_1d_shares": -167108,
-      "institution_net_5d_shares": 815168,
-      "institution_net_20d_shares": 380179
+      "foreign_net_1d_shares": -300349,
+      "foreign_net_5d_shares": -107904,
+      "foreign_net_20d_shares": -6871758,
+      "institution_net_1d_shares": -131567,
+      "institution_net_5d_shares": 200408,
+      "institution_net_20d_shares": 384100
     }
   ]
 }
