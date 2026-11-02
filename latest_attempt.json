@@ -1,71 +1,48 @@
 {
-  "status": "FAILED",
-  "run_type": "CLOSE",
-  "generated_at_utc": "2026-10-31T00:57:24.454061+00:00",
+  "status": "PARTIAL",
+  "run_type": "PREMARKET",
+  "generated_at_utc": "2026-11-02T22:06:00.739293+00:00",
   "quality": {
     "schema_version": 1,
-    "status": "FAILED",
-    "publishable": false,
+    "status": "PARTIAL",
+    "publishable": true,
     "official_signal_eligible": false,
     "issues": [
       {
-        "component": "semiconductor",
-        "code": "EXECUTION_FAILURE",
-        "severity": "error"
-      },
-      {
-        "component": "sector_collect",
-        "code": "EXECUTION_FAILURE",
-        "severity": "error"
-      },
-      {
-        "component": "sector_scan",
-        "code": "EXECUTION_SKIPPED",
-        "severity": "error"
-      },
-      {
-        "component": "weekly_scores",
-        "code": "FileNotFoundError",
-        "severity": "error"
-      },
-      {
-        "component": "sector",
-        "code": "FileNotFoundError",
-        "severity": "error"
-      },
-      {
-        "component": "daily_shock",
-        "code": "FileNotFoundError",
-        "severity": "warning"
-      },
-      {
-        "component": "korea_flow",
-        "code": "FileNotFoundError",
+        "component": "timing",
+        "code": "PREMARKET_WINDOW_MISSED",
         "severity": "warning"
       }
     ],
     "expected_dates": {
-      "us_daily": "2026-10-30",
+      "us_daily": "2026-11-02",
       "us_weekly": "2026-10-30",
       "us_weekly_session": "2026-10-30",
-      "korea_flow": "2026-10-30"
+      "korea_flow": "2026-11-02"
     },
-    "observed_dates": {},
+    "observed_dates": {
+      "weekly_scores": "2026-10-30",
+      "sector_daily": "2026-11-02",
+      "sector_weekly": "2026-10-30",
+      "daily_shock": "2026-11-02",
+      "korea_flow:005930": "2026-11-02",
+      "korea_flow:000660": "2026-11-02"
+    },
     "timing": {
-      "checked_at_utc": "2026-10-31T00:55:03.553604+00:00",
-      "run_type": "CLOSE",
+      "checked_at_utc": "2026-11-02T22:05:16.392615+00:00",
+      "run_type": "PREMARKET",
       "schedule_delay_seconds": null,
       "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
-      "exchange_open_utc": "2026-10-30T13:30:00+00:00",
-      "exchange_close_utc": "2026-10-30T20:00:00+00:00",
-      "window_status": "WITHIN_WINDOW",
-      "completed_at_utc": "2026-10-31T00:57:21.582276+00:00"
+      "exchange_open_utc": "2026-11-02T14:30:00+00:00",
+      "exchange_close_utc": "2026-11-02T21:00:00+00:00",
+      "window_status": "PREMARKET_WINDOW_MISSED",
+      "completed_at_utc": "2026-11-02T22:05:57.788089+00:00"
     },
     "price_basis": "yahoo_quote_close_no_dividend_adjustment",
     "independent_SOXL_price_provider": true,
     "independent_price_mode": "verified_tail_only_requires_quote_close_reference",
     "independent_price_usage": []
   },
-  "result_package_replaced": false,
+  "result_package_replaced": true,
   "note": "When false, latest/ remains the previous published result; check its own as-of date."
 }
