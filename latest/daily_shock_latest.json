@@ -9,8 +9,41 @@
     "volume_ratio": 1.5,
     "volume_window": 20
   },
-  "generated_at": "2026-11-04T01:32:04.907094+00:00",
+  "generated_at": "2026-11-04T20:15:05.736177+00:00",
   "scope": "daily close, not intraday; breadth is four-stock sample",
-  "status": "UNAVAILABLE",
-  "reason": "DataQualityError"
+  "status": "PERSISTENT_SHOCK",
+  "asof": "2026-11-03",
+  "metrics": {
+    "SOXX_return_1d": 0.0250193018,
+    "SOXX_return_1d_threshold": -0.048465334,
+    "SOXX_return_3d": -0.0950842384,
+    "SOXX_return_3d_threshold": -0.0710609031,
+    "SPY_return_1d": 0.0029916236,
+    "SPY_return_1d_threshold": -0.0142094006,
+    "SPY_return_3d": -0.0195097354,
+    "SPY_return_3d_threshold": -0.0190149869,
+    "SOXL_return_1d": 0.0726126553,
+    "SOXL_return_1d_threshold": -0.1458009024,
+    "SOXL_return_3d": -0.2858677294,
+    "SOXL_return_3d_threshold": -0.2195160661,
+    "price_shock": true,
+    "vix_level": 20.83,
+    "vix_change_1d": -0.0151300236,
+    "vix_threshold": 0.1282083036,
+    "vix_shock": false,
+    "declining_fraction": 0.0,
+    "median_volume_ratio": 0.8555916968,
+    "breadth_shock": false,
+    "shock_count": 1,
+    "status": "PERSISTENT_SHOCK",
+    "shock_streak_sessions": 3
+  },
+  "credit": {
+    "status": "CURRENT",
+    "observation_date": "2026-11-03",
+    "previous_observation_date": "2026-11-02",
+    "hy_oas_percent": 3.4,
+    "change_bp": -3.000000000000025,
+    "included_in_shock_count": false
+  }
 }
