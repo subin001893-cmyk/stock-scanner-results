@@ -11,28 +11,28 @@
     }
   ],
   "expected_dates": {
-    "us_daily": "2026-11-05",
-    "us_weekly": "2026-10-30",
-    "us_weekly_session": "2026-10-30",
-    "korea_flow": "2026-11-06"
+    "us_daily": "2026-11-09",
+    "us_weekly": "2026-11-06",
+    "us_weekly_session": "2026-11-06",
+    "korea_flow": "2026-11-09"
   },
   "observed_dates": {
-    "weekly_scores": "2026-10-30",
-    "sector_daily": "2026-11-05",
-    "sector_weekly": "2026-10-30",
-    "daily_shock": "2026-11-05",
-    "korea_flow:005930": "2026-11-06",
-    "korea_flow:000660": "2026-11-06"
+    "weekly_scores": "2026-11-06",
+    "sector_daily": "2026-11-09",
+    "sector_weekly": "2026-11-06",
+    "daily_shock": "2026-11-09",
+    "korea_flow:005930": "2026-11-09",
+    "korea_flow:000660": "2026-11-09"
   },
   "timing": {
-    "checked_at_utc": "2026-11-06T19:49:35.278785+00:00",
+    "checked_at_utc": "2026-11-09T22:50:54.335958+00:00",
     "run_type": "PREMARKET",
     "schedule_delay_seconds": null,
     "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
-    "exchange_open_utc": "2026-11-06T14:30:00+00:00",
-    "exchange_close_utc": "2026-11-06T21:00:00+00:00",
+    "exchange_open_utc": "2026-11-09T14:30:00+00:00",
+    "exchange_close_utc": "2026-11-09T21:00:00+00:00",
     "window_status": "PREMARKET_WINDOW_MISSED",
-    "completed_at_utc": "2026-11-06T19:50:13.220856+00:00"
+    "completed_at_utc": "2026-11-09T22:51:31.168767+00:00"
   },
   "price_basis": "yahoo_quote_close_no_dividend_adjustment",
   "independent_SOXL_price_provider": true,
