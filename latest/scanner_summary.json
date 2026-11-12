@@ -12,42 +12,89 @@
     "official_signal_eligible": false,
     "issues": [
       {
-        "component": "timing",
-        "code": "PREMARKET_WINDOW_MISSED",
+        "component": "sector_daily",
+        "code": "COMPLETED_WEEK_ONLY",
+        "severity": "warning"
+      },
+      {
+        "component": "daily_shock",
+        "code": "UNAVAILABLE_OR_WARMUP",
+        "severity": "warning"
+      },
+      {
+        "component": "credit_context",
+        "code": "UNAVAILABLE",
         "severity": "warning"
       }
     ],
     "expected_dates": {
-      "us_daily": "2026-11-10",
+      "us_daily": "2026-11-11",
       "us_weekly": "2026-11-06",
       "us_weekly_session": "2026-11-06",
       "korea_flow": "2026-11-11"
     },
     "observed_dates": {
       "weekly_scores": "2026-11-06",
-      "sector_daily": "2026-11-10",
+      "sector_daily": "2026-11-06",
       "sector_weekly": "2026-11-06",
-      "daily_shock": "2026-11-10",
+      "daily_shock": null,
       "korea_flow:005930": "2026-11-11",
       "korea_flow:000660": "2026-11-11"
     },
     "timing": {
-      "checked_at_utc": "2026-11-11T19:59:15.587318+00:00",
-      "run_type": "PREMARKET",
+      "checked_at_utc": "2026-11-12T02:21:46.157688+00:00",
+      "run_type": "CLOSE",
       "schedule_delay_seconds": null,
       "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
       "exchange_open_utc": "2026-11-11T14:30:00+00:00",
       "exchange_close_utc": "2026-11-11T21:00:00+00:00",
-      "window_status": "PREMARKET_WINDOW_MISSED",
-      "completed_at_utc": "2026-11-11T20:00:03.301331+00:00"
+      "window_status": "WITHIN_WINDOW",
+      "completed_at_utc": "2026-11-12T02:24:33.861812+00:00"
     },
     "price_basis": "yahoo_quote_close_no_dividend_adjustment",
     "independent_SOXL_price_provider": true,
     "independent_price_mode": "verified_tail_only_requires_quote_close_reference",
-    "independent_price_usage": []
+    "independent_price_usage": [
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "ABBV",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-11-12T02:23:05.454202+00:00",
+        "reference_last": "2026-11-10",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-18",
+        "overlap_last": "2026-11-10",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.00016340944501,
+        "supplemented_price_dates": [
+          "2026-11-11"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "43bea080d48061526efd91efc29874e4d1681043fe062c2bd91775ffc8563ac1",
+        "used_at_utc": "2026-11-12T02:23:05.461664+00:00"
+      },
+      {
+        "provider": "Nasdaq public historical",
+        "ticker": "ABBV",
+        "mode": "verified_tail_only",
+        "received_at_utc": "2026-11-12T02:23:05.454202+00:00",
+        "reference_last": "2026-11-10",
+        "verified_overlap": 60,
+        "overlap_first": "2026-08-18",
+        "overlap_last": "2026-11-10",
+        "max_overlap_price_gap": 1.464843751364242e-05,
+        "volume_median_ratio": 1.00016340944501,
+        "supplemented_price_dates": [
+          "2026-11-11"
+        ],
+        "supplemented_volume_dates": [],
+        "response_sha256": "43bea080d48061526efd91efc29874e4d1681043fe062c2bd91775ffc8563ac1",
+        "used_at_utc": "2026-11-12T02:24:14.895919+00:00"
+      }
+    ]
   },
-  "run_type": "PREMARKET",
-  "generated_at_utc": "2026-11-11T20:00:06.169766+00:00",
+  "run_type": "CLOSE",
+  "generated_at_utc": "2026-11-12T02:24:35.328381+00:00",
   "semiconductor": {
     "weekly_results": "latest/weekly_results.csv",
     "daily_shock": "latest/daily_shock_latest.json",
