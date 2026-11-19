@@ -1,41 +1,54 @@
 {
   "schema_version": 1,
-  "status": "PARTIAL",
+  "status": "SUCCESS",
   "publishable": true,
-  "official_signal_eligible": false,
-  "issues": [
-    {
-      "component": "timing",
-      "code": "PREMARKET_WINDOW_MISSED",
-      "severity": "warning"
-    }
-  ],
+  "official_signal_eligible": true,
+  "issues": [],
   "expected_dates": {
-    "us_daily": "2026-11-17",
+    "us_daily": "2026-11-18",
     "us_weekly": "2026-11-13",
     "us_weekly_session": "2026-11-13",
     "korea_flow": "2026-11-18"
   },
   "observed_dates": {
     "weekly_scores": "2026-11-13",
-    "sector_daily": "2026-11-17",
+    "sector_daily": "2026-11-18",
     "sector_weekly": "2026-11-13",
-    "daily_shock": "2026-11-17",
+    "daily_shock": "2026-11-18",
     "korea_flow:005930": "2026-11-18",
     "korea_flow:000660": "2026-11-18"
   },
   "timing": {
-    "checked_at_utc": "2026-11-18T21:03:55.122995+00:00",
-    "run_type": "PREMARKET",
+    "checked_at_utc": "2026-11-19T02:41:56.666447+00:00",
+    "run_type": "CLOSE",
     "schedule_delay_seconds": null,
     "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
     "exchange_open_utc": "2026-11-18T14:30:00+00:00",
     "exchange_close_utc": "2026-11-18T21:00:00+00:00",
-    "window_status": "PREMARKET_WINDOW_MISSED",
-    "completed_at_utc": "2026-11-18T21:04:35.651370+00:00"
+    "window_status": "WITHIN_WINDOW",
+    "completed_at_utc": "2026-11-19T02:42:32.091950+00:00"
   },
   "price_basis": "yahoo_quote_close_no_dividend_adjustment",
   "independent_SOXL_price_provider": true,
   "independent_price_mode": "verified_tail_only_requires_quote_close_reference",
-  "independent_price_usage": []
+  "independent_price_usage": [
+    {
+      "provider": "Nasdaq public historical",
+      "ticker": "HUBB",
+      "mode": "verified_tail_only",
+      "received_at_utc": "2026-11-19T02:42:13.487872+00:00",
+      "reference_last": "2026-11-17",
+      "verified_overlap": 60,
+      "overlap_first": "2026-08-25",
+      "overlap_last": "2026-11-17",
+      "max_overlap_price_gap": 1.464843751364242e-05,
+      "volume_median_ratio": 0.9999990303313173,
+      "supplemented_price_dates": [
+        "2026-11-18"
+      ],
+      "supplemented_volume_dates": [],
+      "response_sha256": "df309fd125b603d8f2f51a82fb357b1b2de68b3736f10fd3b57cd19c61879fa7",
+      "used_at_utc": "2026-11-19T02:42:13.532627+00:00"
+    }
+  ]
 }
