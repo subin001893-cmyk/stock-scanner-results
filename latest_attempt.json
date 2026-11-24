@@ -1,7 +1,7 @@
 {
   "status": "PARTIAL",
-  "run_type": "CLOSE",
-  "generated_at_utc": "2026-11-24T05:24:26.982314+00:00",
+  "run_type": "PREMARKET",
+  "generated_at_utc": "2026-11-24T22:54:23.885201+00:00",
   "quality": {
     "schema_version": 1,
     "status": "PARTIAL",
@@ -10,33 +10,33 @@
     "issues": [
       {
         "component": "timing",
-        "code": "CLOSE_BEFORE_VALIDATION_WINDOW",
+        "code": "PREMARKET_WINDOW_MISSED",
         "severity": "warning"
       }
     ],
     "expected_dates": {
-      "us_daily": "2026-11-23",
+      "us_daily": "2026-11-24",
       "us_weekly": "2026-11-20",
       "us_weekly_session": "2026-11-20",
-      "korea_flow": "2026-11-23"
+      "korea_flow": "2026-11-24"
     },
     "observed_dates": {
       "weekly_scores": "2026-11-20",
-      "sector_daily": "2026-11-23",
+      "sector_daily": "2026-11-24",
       "sector_weekly": "2026-11-20",
-      "daily_shock": "2026-11-23",
-      "korea_flow:005930": "2026-11-23",
-      "korea_flow:000660": "2026-11-23"
+      "daily_shock": "2026-11-24",
+      "korea_flow:005930": "2026-11-24",
+      "korea_flow:000660": "2026-11-24"
     },
     "timing": {
-      "checked_at_utc": "2026-11-24T05:23:54.386485+00:00",
-      "run_type": "CLOSE",
+      "checked_at_utc": "2026-11-24T22:53:39.958891+00:00",
+      "run_type": "PREMARKET",
       "schedule_delay_seconds": null,
       "schedule_delay_note": "Exact scheduler trigger timestamp is not provided; delay is not inferred.",
       "exchange_open_utc": "2026-11-24T14:30:00+00:00",
       "exchange_close_utc": "2026-11-24T21:00:00+00:00",
-      "window_status": "CLOSE_BEFORE_VALIDATION_WINDOW",
-      "completed_at_utc": "2026-11-24T05:24:25.682547+00:00"
+      "window_status": "PREMARKET_WINDOW_MISSED",
+      "completed_at_utc": "2026-11-24T22:54:21.412818+00:00"
     },
     "price_basis": "yahoo_quote_close_no_dividend_adjustment",
     "independent_SOXL_price_provider": true,
