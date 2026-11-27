@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-27T03:42:40.678182",
+  "created_at": "2026-11-27T21:48:07.401655",
   "start": "2024-01-01",
-  "last_market_date": "2026-11-25",
-  "last_weekly_date": "2026-11-20",
+  "last_market_date": "2026-11-27",
+  "last_weekly_date": "2026-11-27",
   "sectors": {
     "MARKET": {
       "benchmark": "SPY",
